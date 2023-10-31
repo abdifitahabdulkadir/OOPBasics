@@ -1,0 +1,35 @@
+Interface is the service requiremnt specification (SRC);
+
+it providesthe defiantion of all required specifications
+but the implementationsi about you.
+
+for exmample 
+
+Services APi (delvelped by sun macrosystem)
+
+then there are gorup of webservers that allows java 
+JSB programs to run all fo them even for same program
+because all of them they have implemented the
+same API 
+1. tomact
+2. OSh
+3. Weblogic
+4. Resin.
+
+
+
+2... second defiantion : interface is any contract between  client and servicce provider.
+exmample :
+
+the client wants colledge automation system
+
+then manager provides simple interface looks like 
+ { 
+  1. map1()
+  2. map2()
+  3. ma3()
+  4. map4()
+  5. map5()
+ }
+
+ those are interace / visible requirements will provode by system to the client and not yet implemented.

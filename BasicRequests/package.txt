@@ -1,0 +1,14 @@
+
+
+==================Packages===============
+
+packages are nothing is mechanism that java uses to store group of classes, interfaces and sub pacakges that have similar functionality.
+
+-- provides easily navigible when searching either class, or any other .
+
+the simple idea behind packages is that every class has scope of most within that package and not avaliable outsdide of that pakcage even if it is public.
+
+-> that allows jaava to avaid naming confilicts of classes and package be as boundary between them.
+
+
+-> to use other classes that belong to the ohter packages we can simply import which can be both user defind package or built In pacakge.

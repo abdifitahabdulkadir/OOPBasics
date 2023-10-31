@@ -1,0 +1,44 @@
+=====variables
+
+there are three vaiabls 
+1. instnace variables ==> variabls outsdide of method and belong to the object and initialize when every object of that class is created .
+and every time object is created again it again 
+creates the that object and every object has copy of of that variabls.
+
+-> scope is only withiin class using instace of the calss.
+
+
+
+1. local variables --> variables declare inside the method and thier scope is unitl or insdie the method 
+and initialized when method is created.
+
+2. Static variables --> variables similar to instace variable with defination syntax static keyword and they belong to the class.
+
+-- it is initialize when execution starts not when object is created because they belong to class not object.
+
+-- think that like that static methods and varibales are memroy always
+beause when calss is called and create obejct we are again using some blueprint 
+and design to create another entity-- object so we class we load ontime to memroyand will be that and we an use that like kind of architecture to create any entity has these properties and behaviors.
+
+sot hat is why we have some value of static variable and static method because 
+they belong to calss and initialize when class is load
+if we create mmultibe times obejct from that class.
+
+N:B==> no matter how many objects we create only one object of static method and vaiable is avaliable all of the obejcts 
+while instance and local vaiable always different every time we create different object.
+
+== =================Static methods
+are methods used to call the static varaibles and as the names
+sugges whenver the value is changing based speicic entity we create from that obejct then we dont need to use static method and varaible but when all the
+entity have common value we can use them to put in static method or variable.
+
+=== Constructors==> are speical type of methods belgon to the class
+-- unlike the methods it does not have returntype, static , final and abstract keyword before it.
+
+-- default Constructor is called if you dont mention any Constructor
+-- parametrized Constructor -- Constructor wiht some arguments.
+--non-parametrized Constructor --> Constructor without arguments.
+
+usage=> to initialize variables inthe run time.
+
+

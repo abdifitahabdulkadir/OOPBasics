@@ -1,0 +1,18 @@
+access modifiers as the name sugges are keywords in java or programming lanauges that speicfies and descripes how far we can access the the spefic varaibel, method, or any calsss.
+
+public ==> every thing that is public is accessible within package it is defined, outside of package (by importing tha pakcage);
+
+1. for calss scenario-> if the calssi public then we can create instance of that calss in anywhere java appliation by importing it and aacces all its members if they are public.
+
+
+2. default => this is the when we dont mention any tupe of modifer.
+- for example if we create another class and 
+or make [company] class default (remove public) then it raises compilation error.
+
+-->default we can acess only within package and nested pakcages of that package --was defined it at most.
+
+
+3. Private --> simply either variable or method or inner calss private accessible only withiin the class it is defined.
+
+
+4. Protected -> it is only accessible within pakcage and subclasess of class it was defined inside it.

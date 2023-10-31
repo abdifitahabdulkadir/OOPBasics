@@ -1,0 +1,39 @@
+
+
+Non AccessModiiers are keywords that is not used to change visibility of spefici class or method.
+
+1. abstract -- this name sugges that is hides someting -- it descripes incompleteness of something.
+-- it can be put infront of method and class.
+
+-- for class if its abstract we can not instantiate because it is abstract you know it is incompleteness.
+
+-- for method to be abstrac method then it should not have any body implementation so it should be inside of abstrac class 
+
+-- abstrac calss can have both abstrac and non abstrac methods.
+
+
+-- we can have also some methods we are without abstract means if there is similar data between them 
+all subclasses we can simply use to put in the asbtrac method. 
+unlikie interface which as nam suggess defines interface -- means there is no common between them except interface or requirement specification.
+
+let us do abstract class for simple payment.
+it can be use code resuablitiy for extending multiple calsses.
+
+
+===> final keyword => is ablicable to classes, variables and methods for finalizing thier implementation.
+
+1. if the class is final then simply means it cannot have any subcalss -- we can not extends that calss as super classs.
+
+
+2. method of final then we can nto be override that method. 
+
+3. for final vaiabels -- then we can intialize once not again.
+
+
+
+==> Static keyword : is the keywbord that is applicable for methods and variables.
+
+1. if method and variables are static then they are calss members -- belgon to the clas and intialize only when calss is loaded and store in memory no matter 
+how many object object object is being created after that.
+
+-- is is good performace some usefull when you have data that is to initalise ontime and all other subcalss or may be differnet contrcutor overriding while creating object is common for.
