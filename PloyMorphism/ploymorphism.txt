@@ -1,0 +1,82 @@
+
+Ploymorhpism --is the ability something to take many forms.
+ploy means many and forms means ways.
+
+in java , is the ability of an object to take many forms.
+
+method signature --> is the method name with paramater date types.
+for example -> displayName(String) 
+means that i has arguemnt with String date type
+
+it uses by compiler to complite at compilation time and only waysto 
+recognize is to form other methods .
+
+to recongnize that if you add another method with different return type
+then you will get combiler error because they should be different in signature
+and return type is not part of signature.
+.
+
+the are two types of polyMorthism
+
+1. Early Binding --> Combile Time Ploymorhpism or Method Overloading.
+the idea is that we have method with name but with different Signature .
+and compiler compiler at compiler time and raise error if exists.
+-- that is why it is early binding.
+
+as the name suggests in {Overloading} -> overlaods -- accessing more methods all the time.
+
+
+
+2... Method Overriding --> is the ability child class to implement method in the base class.
+-- to provide full implementation of method in that.
+
+-- to override that method we have to tell compiler and we can tell using 
+the annotation of @Override on top of method name.
+-- @Override
+  methodName(){
+    // implementation.
+  }
+
+
+-- for determining the which method is being called java has something called
+=={Method Resolution} to determine which is method must be called based on object.
+
+there three cases 
+1. parent class scenario
+Parent parent =new Parent()
+ this case only methods in parent will be called regardless child because
+ we have created object of parent class.
+
+2. Child Class Scenario 
+Child child =new Child()
+Here if child extends calss and overrides the method that has been caleld it is called 
+othewise then parent method is called .
+
+3. Using parent Reference but with Child object
+Parent parent =new Child()
+Here is same as Child so if that method is overrided by child it will be called 
+otherwise It will be called for parent One.
+
+IMP: the type of Referenced obejct will be determine what type of object is called and is to be execute.
+
+it is also called Runtime Ploymorhpism or Late Time Binding.
+
+Points
+1. we can not override final and static method becuase fianl is finalized
+and static is not relate to the object of class so there is not way to 
+solve in method Resolution.
+
+2. we can not decrease visibility of method in the base class when it is 
+child classs to declare to as private but we can do from protected to 
+public.
+
+3. implement static method is not allowd and you will not get error 
+becaus it assumes that you have defining your own static methods 
+but not the methods in base class.
+
+because you connt use {@Override} annotation.
+
+
+4. we can not override private methods. because they are not accesbible outsie
+of defined class but with protected and default we yes can do.
+
