@@ -1,0 +1,34 @@
+
+Association ==> Has a relationship 
+-- establishing relationship between two classes througth thier objects.
+
+There are two types Association:
+
+1.... Aggregation -> is type of association where both entites that are associated can exists independtly.
+
+-- they relate kind of has- relationship
+
+-- {Colledge has Teacher}
+-- {Office has Employe}
+
+exmaple 
+here Colledge does not contain or compose teacher but i has 
+belong so means when we are building colledge does not contin teachers so they can exists independtly.
+here container and contained can survive independtly 
+teacher can be exists breaking of colledge and vice verse.
+
+contianer is whole(college) and contained is the part {teacher}
+1. Colledge has teacher why Aggregation?
+because 
+Colledge can exists independtly seperate from that teacher.
+Teacher can exists and be a teacher in another college.
+
+
+
+2... Composition
+simply compostion is has relationship but composed or contianed
+can not survive it's own (kickten).
+contianer is whole(House) and contained is the part {Kitcken}
+- compositon means two entites area associted but with strong realtionship between them so like House and kicken so when 
+house is ther and kicken is there is yes but when whole -- contianed one (house ) is killed then part(kicken) is not make sense alone.
+--It composes means to create House class you you need kicken  and you use kicken as house contains /composes the kitcken.
